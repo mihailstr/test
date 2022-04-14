@@ -49,8 +49,8 @@
 			<div>
 				<label for="di">Диагноз</label>
 				<select name="di">
-					<option value="0">добавить новый</option>
 					<option value=""></option>
+					<option value="0">добавить новый</option>
 					@foreach ($di as $p)
 						<option {{ isset($ds->ds) ? ($p->id == $ds->ds ? 'selected="selected" ' : '') : '' }}value="{{ $p->id }}">{{ $p->text }}</option>
 					@endforeach
