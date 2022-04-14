@@ -1,0 +1,33 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	background: #d4e7ee;
+	overflow: hidden;
+	padding: 0;
+}
+li {
+	display: inline-block;
+	width: 150px;
+}
+li a {
+	text-align: center;
+	display: block;
+	padding: 1em;
+	border-right: 1px solid #adc0ce;
+	background: rgba(173, 192, 206, .3);
+	color: #29838C;
+}
+li a:hover {
+	background: #adc0ce;
+}
+a {
+	text-decoration: none;
+}
+table {
+	width: 100%;
+	border: 1px solid #000000;
+}
+div {
+	margin: 10px;
+}
